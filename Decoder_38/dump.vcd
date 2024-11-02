@@ -1,0 +1,70 @@
+$date
+	Sun Oct 20 03:31:52 2024
+$end
+$version
+	QuestaSim Version 2023.1
+$end
+$timescale
+	1ns
+$end
+
+$scope module tb_decoder38 $end
+$var reg 3 ! In [2:0] $end
+$var reg 8 " Out [7:0] $end
+
+$scope module uut $end
+$var wire 1 # In [2] $end
+$var wire 1 $ In [1] $end
+$var wire 1 % In [0] $end
+$var reg 8 & Out [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0%
+0$
+0#
+b0 !
+b1 "
+b1 &
+$end
+#10
+b1 !
+1%
+b10 &
+b10 "
+#20
+b10 !
+0%
+1$
+b100 &
+b100 "
+#30
+b11 !
+1%
+b1000 &
+b1000 "
+#40
+b100 !
+0%
+0$
+1#
+b10000 &
+b10000 "
+#50
+b101 !
+1%
+b100000 &
+b100000 "
+#60
+b110 !
+0%
+1$
+b1000000 &
+b1000000 "
+#70
+b111 !
+1%
+b10000000 &
+b10000000 "
