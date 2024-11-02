@@ -1,0 +1,63 @@
+$date
+	Sun Oct 20 02:57:11 2024
+$end
+$version
+	QuestaSim Version 2023.1
+$end
+$timescale
+	1ns
+$end
+
+$scope module tb_mux41 $end
+$var reg 4 ! D [3:0] $end
+$var reg 1 " Out $end
+$var reg 2 # Sel [1:0] $end
+
+$scope module uut $end
+$var wire 1 $ D [3] $end
+$var wire 1 % D [2] $end
+$var wire 1 & D [1] $end
+$var wire 1 ' D [0] $end
+$var wire 1 ( Sel [1] $end
+$var wire 1 ) Sel [0] $end
+$var reg 1 * Out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0)
+0(
+1'
+0&
+0%
+0$
+b1 !
+1"
+b0 #
+1*
+$end
+#10
+b101 !
+b1 #
+1)
+1%
+0*
+0"
+#20
+b1010 !
+b10 #
+0)
+1(
+0'
+1&
+0%
+1$
+#30
+b1111 !
+b11 #
+1)
+1'
+1%
+1*
+1"
