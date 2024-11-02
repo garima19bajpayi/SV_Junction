@@ -1,0 +1,47 @@
+$date
+	Sun Oct 20 03:34:58 2024
+$end
+$version
+	QuestaSim Version 2023.1
+$end
+$timescale
+	1ns
+$end
+
+$scope module tb_odd_parity_generator $end
+$var reg 4 ! data_in [3:0] $end
+$var reg 1 " parity_out $end
+
+$scope module uut $end
+$var wire 1 # data_in [3] $end
+$var wire 1 $ data_in [2] $end
+$var wire 1 % data_in [1] $end
+$var wire 1 & data_in [0] $end
+$var reg 1 ' parity_out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0&
+1%
+0$
+1#
+b1010 !
+0"
+0'
+$end
+#10
+b1111 !
+1&
+1$
+#20
+b0 !
+0&
+0%
+0$
+0#
+#30
+b101 !
+1&
+1$
