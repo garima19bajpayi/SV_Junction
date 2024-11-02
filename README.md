@@ -1,5 +1,5 @@
 # SV_Junction
-a comprehensive collection of circuits synthesized in System Verilog(also me practicing everything from scratch :P)
+This repository contains a comprehensive collection of circuits synthesized in System Verilog(also me practicing everything from scratch :P)
 Checkout my EDA playground links 
 ### Logic Gates
 - [OR Gate](https://edaplayground.com/x/ckvr)
