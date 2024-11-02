@@ -1,0 +1,79 @@
+$date
+	Sun Oct 20 02:53:41 2024
+$end
+$version
+	QuestaSim Version 2023.1
+$end
+$timescale
+	1ns
+$end
+
+$scope module multiplier_4bit_tb $end
+$var reg 4 ! tb_a [3:0] $end
+$var reg 4 " tb_b [3:0] $end
+$var reg 8 # tb_product [7:0] $end
+
+$scope module uut $end
+$var wire 1 $ a [3] $end
+$var wire 1 % a [2] $end
+$var wire 1 & a [1] $end
+$var wire 1 ' a [0] $end
+$var wire 1 ( b [3] $end
+$var wire 1 ) b [2] $end
+$var wire 1 * b [1] $end
+$var wire 1 + b [0] $end
+$var reg 8 , product [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1+
+0*
+0)
+0(
+1'
+0&
+0%
+0$
+b1 !
+b1 "
+b1 #
+b1 ,
+$end
+#10
+b10 !
+b11 "
+1*
+0'
+1&
+b110 ,
+b110 #
+#20
+b100 !
+b100 "
+0+
+0*
+1)
+0&
+1%
+b10000 ,
+b10000 #
+#30
+b111 !
+b10 "
+1*
+0)
+1'
+1&
+b1110 ,
+b1110 #
+#40
+b1111 !
+b1111 "
+1+
+1)
+1(
+1$
+b11100001 ,
+b11100001 #
