@@ -1,0 +1,39 @@
+QuestaSim-64 qrun 2023.1 Utility 2023.01 Jan 23 2023
+Start time: 03:04:01 on Oct 20,2024
+qrun -batch -access=rw+/. -timescale 1ns/1ns -mfcu design.sv testbench.sv -voptargs="+acc=npr" -do " run -all; exit" 
+Creating library 'qrun.out/work'.
+QuestaSim-64 vlog 2023.1 Compiler 2023.01 Jan 23 2023
+Start time: 03:04:01 on Oct 20,2024
+vlog -timescale 1ns/1ns -mfcu design.sv testbench.sv -work qrun.out/work -csession=incr -writesessionid "+qrun.out/top_dus" -statslog qrun.out/stats_log 
+-- Compiling module muxN1
+-- Compiling module tb_muxN1
+
+Top level modules:
+	muxN1
+	tb_muxN1
+End time: 03:04:01 on Oct 20,2024, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vopt 2023.1 Compiler 2023.01 Jan 23 2023
+** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+Start time: 03:04:01 on Oct 20,2024
+vopt -access=rw+/. -timescale 1ns/1ns -mfcu "+acc=npr" -findtoplevels /home/runner/qrun.out/work+0+ -work qrun.out/work -statslog qrun.out/stats_log -o qrun_opt 
+
+Top level modules:
+	muxN1
+	tb_muxN1
+
+Analyzing design...
+-- Loading module muxN1
+-- Loading module tb_muxN1
+** Error: testbench.sv(10): Module 'muxNto1' is not defined.
+ For instance 'uut' at path 'tb_muxN1'
+Optimization failed
+End time: 03:04:01 on Oct 20,2024, Elapsed time: 0:00:00
+Errors: 1, Warnings: 1
+child process exited abnormally
+End time: 03:04:01 on Oct 20,2024, Elapsed time: 0:00:00
+*** Summary *********************************************
+    qrun: Errors:   0, Warnings:   0
+    vlog: Errors:   0, Warnings:   0
+    vopt: Errors:   1, Warnings:   1
+  Totals: Errors:   1, Warnings:   1

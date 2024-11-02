@@ -1,0 +1,63 @@
+m255
+K4
+z2
+!s11f vlog 2023.1 2023.01, Jan 23 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/runner
+vmuxN1
+Z1 2design.sv testbench.sv
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1729407841
+!i10b 1
+!s100 jEH8C95gBMCmQR3k0U1cz3
+IS8SRR=2dK7jkS2^^fL`^^1
+S1
+R0
+Z4 w1729407839
+8design.sv
+Fdesign.sv
+!i122 0
+L0 1 9
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2023.1;77
+r1
+!s85 0
+31
+Z7 !s108 1729407841.000000
+!s107 testbench.sv|design.sv|
+Z8 !s90 -timescale|1ns/1ns|-mfcu|design.sv|testbench.sv|-work|qrun.out/work|-csession=incr|-writesessionid|+qrun.out/top_dus|-statslog|qrun.out/stats_log|
+!i113 0
+Z9 o-timescale 1ns/1ns -mfcu -work qrun.out/work
+Z10 tCvgOpt 0
+nmux@n1
+vtb_muxN1
+R1
+R2
+R3
+!i10b 1
+!s100 Vhgoaad]TK?_O];zBaC4:2
+IU8YCRZ0CWjlK]G]2E8z?o0
+S1
+R0
+R4
+8testbench.sv
+Ftestbench.sv
+!i122 0
+L0 1 38
+R5
+R6
+r1
+!s85 0
+31
+R7
+Z11 !s107 testbench.sv|design.sv|
+R8
+!i113 0
+R9
+R10
+ntb_mux@n1
