@@ -1,0 +1,46 @@
+$date
+	Sun Oct 20 01:41:14 2024
+$end
+$version
+	QuestaSim Version 2023.1
+$end
+$timescale
+	1ns
+$end
+
+$scope module tb_xor_gate $end
+$var reg 1 ! tb_a $end
+$var reg 1 " tb_b $end
+$var reg 1 # tb_y $end
+
+$scope module uut $end
+$var wire 1 $ a $end
+$var wire 1 % b $end
+$var reg 1 & y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0%
+0$
+0!
+0"
+0#
+0&
+$end
+#10
+1"
+1%
+1&
+1#
+#20
+1!
+0"
+1$
+0%
+#30
+1"
+1%
+0&
+0#

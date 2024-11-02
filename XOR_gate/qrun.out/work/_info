@@ -1,0 +1,73 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+!s11f vlog 2023.1 2023.01, Jan 23 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/runner
+Tqrun_opt
+Z2 !s110 1729402873
+V7dh3k`B<97ioX?Z<CimfY3
+04 11 4 work tb_xor_gate fast 0
+R0
+!s12b OEM100
+!s124 OEM100
+o-access=rw+/. -timescale 1ns/1ns -mfcu +acc=npr -work qrun.out/work
+Z3 tCvgOpt 0
+nqrun_opt
+OL;O;2023.1;77
+vtb_xor_gate
+Z4 2design.sv testbench.sv
+Z5 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R2
+!i10b 1
+!s100 h@g<UF^k<`4`XLJi9oUC41
+IFaPJO<a^ej13Uk8zFla5j1
+S1
+R1
+Z6 w1729402870
+8testbench.sv
+Ftestbench.sv
+!i122 0
+L0 2 51
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2023.1;77
+r1
+!s85 0
+31
+Z9 !s108 1729402872.000000
+Z10 !s107 testbench.sv|design.sv|
+Z11 !s90 -timescale|1ns/1ns|-mfcu|design.sv|testbench.sv|-work|qrun.out/work|-csession=incr|-writesessionid|+qrun.out/top_dus|-statslog|qrun.out/stats_log|
+!i113 0
+Z12 o-timescale 1ns/1ns -mfcu -work qrun.out/work
+R3
+vxor_gate
+R4
+R5
+R2
+!i10b 1
+!s100 ;D@j=MNHDN`Rg[IzBfo793
+I]3zo9kiP`AUm?HjNi^nkW1
+S1
+R1
+R6
+8design.sv
+Fdesign.sv
+!i122 0
+L0 2 10
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3
