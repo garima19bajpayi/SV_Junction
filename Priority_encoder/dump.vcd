@@ -1,0 +1,80 @@
+$date
+	Sun Oct 20 03:16:23 2024
+$end
+$version
+	QuestaSim Version 2023.1
+$end
+$timescale
+	1ns
+$end
+
+$scope module tb_priority_encoder $end
+$var reg 8 ! In [7:0] $end
+$var reg 3 " Out [2:0] $end
+$var reg 1 # Valid $end
+
+$scope module uut $end
+$var wire 1 $ In [7] $end
+$var wire 1 % In [6] $end
+$var wire 1 & In [5] $end
+$var wire 1 ' In [4] $end
+$var wire 1 ( In [3] $end
+$var wire 1 ) In [2] $end
+$var wire 1 * In [1] $end
+$var wire 1 + In [0] $end
+$var reg 3 , Out [2:0] $end
+$var reg 1 - Valid $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+b1 !
+b0 "
+1#
+b0 ,
+1-
+$end
+#10
+b100 !
+0+
+1)
+1-
+b10 ,
+b10 "
+#20
+b100000 !
+0)
+1&
+b101 ,
+1-
+b101 "
+#30
+b1000000 !
+0&
+1%
+b110 ,
+1-
+b110 "
+#40
+b10000000 !
+0%
+1$
+b111 ,
+1-
+b111 "
+#50
+b0 !
+0$
+b0 ,
+0-
+0#
+b0 "
