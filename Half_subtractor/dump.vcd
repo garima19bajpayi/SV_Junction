@@ -1,0 +1,54 @@
+$date
+	Sun Oct 20 02:55:33 2024
+$end
+$version
+	QuestaSim Version 2023.1
+$end
+$timescale
+	1ns
+$end
+
+$scope module tb_half_subtractor $end
+$var reg 1 ! A $end
+$var reg 1 " B $end
+$var reg 1 # Borrow $end
+$var reg 1 $ Difference $end
+
+$scope module hs $end
+$var wire 1 % A $end
+$var wire 1 & B $end
+$var reg 1 ' Borrow $end
+$var reg 1 ( Difference $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0&
+0%
+0!
+0"
+0#
+0$
+0'
+0(
+$end
+#10
+1"
+1&
+1(
+1'
+1#
+1$
+#20
+1!
+0"
+1%
+0&
+0'
+0#
+#30
+1"
+1&
+0(
+0$
