@@ -1,0 +1,49 @@
+$date
+	Sun Oct 20 03:05:28 2024
+$end
+$version
+	QuestaSim Version 2023.1
+$end
+$timescale
+	1ns
+$end
+
+$scope module tb_demux14 $end
+$var reg 1 ! In $end
+$var reg 4 " Out [3:0] $end
+$var reg 2 # Sel [1:0] $end
+
+$scope module uut $end
+$var wire 1 $ In $end
+$var wire 1 % Sel [1] $end
+$var wire 1 & Sel [0] $end
+$var reg 4 ' Out [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0&
+0%
+1$
+1!
+b1 "
+b0 #
+b1 '
+$end
+#10
+b1 #
+1&
+b10 '
+b10 "
+#20
+b10 #
+0&
+1%
+b100 '
+b100 "
+#30
+b11 #
+1&
+b1000 '
+b1000 "
