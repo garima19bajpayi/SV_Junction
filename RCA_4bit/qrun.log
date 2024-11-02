@@ -1,0 +1,70 @@
+QuestaSim-64 qrun 2023.1 Utility 2023.01 Jan 23 2023
+Start time: 02:54:06 on Oct 20,2024
+qrun -batch -access=rw+/. -timescale 1ns/1ns -mfcu design.sv testbench.sv -voptargs="+acc=npr" -do " run -all; exit" 
+Creating library 'qrun.out/work'.
+QuestaSim-64 vlog 2023.1 Compiler 2023.01 Jan 23 2023
+Start time: 02:54:07 on Oct 20,2024
+vlog -timescale 1ns/1ns -mfcu design.sv testbench.sv -work qrun.out/work -csession=incr -writesessionid "+qrun.out/top_dus" -statslog qrun.out/stats_log 
+-- Compiling module ripple_carry_adder
+-- Compiling module full_adder
+-- Compiling module tb_ripple_carry_adder
+
+Top level modules:
+	tb_ripple_carry_adder
+End time: 02:54:07 on Oct 20,2024, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vopt 2023.1 Compiler 2023.01 Jan 23 2023
+** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+Start time: 02:54:07 on Oct 20,2024
+vopt -access=rw+/. -timescale 1ns/1ns -mfcu "+acc=npr" -findtoplevels /home/runner/qrun.out/work+0+ -work qrun.out/work -statslog qrun.out/stats_log -o qrun_opt 
+
+Top level modules:
+	tb_ripple_carry_adder
+
+Analyzing design...
+-- Loading module tb_ripple_carry_adder
+-- Loading module ripple_carry_adder
+-- Loading module full_adder
+Optimizing 3 design-units (inlining 0/6 module instances):
+-- Optimizing module ripple_carry_adder(fast)
+-- Optimizing module tb_ripple_carry_adder(fast)
+-- Optimizing module full_adder(fast)
+Optimized design name is qrun_opt
+End time: 02:54:07 on Oct 20,2024, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+# vsim -batch -voptargs="+acc=npr" -lib qrun.out/work -do " run -all; exit" -statslog qrun.out/stats_log qrun_opt -appendlog -l qrun.log -csession=incr 
+# Start time: 02:54:07 on Oct 20,2024
+# //  Questa Sim-64
+# //  Version 2023.1 linux_x86_64 Jan 23 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_ripple_carry_adder(fast)
+# Loading work.ripple_carry_adder(fast)
+# Loading work.full_adder(fast)
+# 
+# run -all
+# A = 0001, B = 0010, Cin = 0 : Sum = 0011, Cout = 0
+# A = 1101, B = 1011, Cin = 0 : Sum = 1000, Cout = 1
+# A = 1111, B = 1111, Cin = 1 : Sum = 1111, Cout = 1
+# A = 0110, B = 0101, Cin = 0 : Sum = 1011, Cout = 0
+# ** Note: $finish    : testbench.sv(36)
+#    Time: 40 ns  Iteration: 0  Instance: /tb_ripple_carry_adder
+# End time: 02:54:08 on Oct 20,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# *** Summary *********************************************
+#     qrun: Errors:   0, Warnings:   0
+#     vlog: Errors:   0, Warnings:   0
+#     vopt: Errors:   0, Warnings:   1
+#     vsim: Errors:   0, Warnings:   0
+#   Totals: Errors:   0, Warnings:   1
